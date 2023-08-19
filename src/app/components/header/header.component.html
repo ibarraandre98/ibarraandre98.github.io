@@ -1,0 +1,14 @@
+<div class="header">
+  <div class="header--logo animate__animated animate__fadeInDown">
+    <img src="../header/../../../assets/ibarraandrelogo.png" width="100px" alt="">
+  </div>
+  <fa-icon class="animate__animated animate__fadeInDown" (click)="showHideNav()" [icon]="faBars"></fa-icon>
+  <ul class="animate__animated animate__fadeInDown" [ngClass]="buttonMenu ? 'show-nav' : 'hide-nav'">
+    <li><a href="">Home</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Blog</a></li>
+    <li><a href="">Portfolio</a></li>
+    <li><a href="">Logos</a></li>
+    <li><a href="">Contacto</a></li>
+  </ul>
+</div>
