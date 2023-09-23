@@ -1,0 +1,38 @@
+<div id="contact" class="contact-page py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-4 pt-5 pt-md-4">
+        <div class="contact-page__about-me d-flex justify-content-center align-items-center flex-column d-lg-block">
+          <h4>{{ 'FOOTER.ME.MY_NAME' | translate }}</h4>
+          <p class="pt-4">{{ 'FOOTER.ME.ABOUT_ME' | translate }}</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-4 pt-5 pt-md-4">
+        <div class="contact-page__contact d-flex justify-content-center align-items-center flex-column d-lg-block">
+          <h4>{{ 'FOOTER.CONTACT.TITLE' | translate }}</h4>
+          <ul class="pt-4">
+            <li><span><fa-icon [icon]="faHome"></fa-icon></span>{{ 'FOOTER.CONTACT.LOCATION' | translate }}</li>
+            <li><span><fa-icon [icon]="faEnvelope"></fa-icon></span>{{ 'FOOTER.CONTACT.EMAIL' | translate }}</li>
+            <li><span><fa-icon [icon]="faPhone"></fa-icon></span>{{ 'FOOTER.CONTACT.PHONE' | translate }}</li>
+            <li><span><fa-icon [icon]="faFile"></fa-icon></span><a href="">{{ 'FOOTER.CONTACT.RESUME' | translate }}</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-4 py-5 pt-lg-4">
+        <div
+          class="contact-page__work-together d-flex justify-content-center align-items-center flex-column d-lg-block ">
+          <h4>{{ 'FOOTER.WORK_TOGETHER.TITLE' | translate }}</h4>
+          <p class="pt-4">{{ 'FOOTER.WORK_TOGETHER.DESCRIPTION' | translate }}</p>
+          <ul class="pt-4">
+            <li><span><fa-icon [icon]="faFile"></fa-icon></span></li>
+            <li><span><fa-icon [icon]="faGithub"></fa-icon></span></li>
+            <li><span><fa-icon [icon]="faLinkedin"></fa-icon></span></li>
+            <li><span><fa-icon [icon]="faYoutube"></fa-icon></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

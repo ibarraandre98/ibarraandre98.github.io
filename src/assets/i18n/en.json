@@ -1,0 +1,99 @@
+{
+  "HEADER": {
+    "MENU": {
+      "HOME": "Home",
+      "ABOUT": "About",
+      "MY_PROJECTS": "My Projects",
+      "ACHIEVEMENTS": "Achievements",
+      "CONTACT": "Contact",
+      "LANGUAGE": {
+        "TITLE": "Language",
+        "SPANISH": "Spanish",
+        "ENGLISH": "English"
+      }
+    }
+  },
+  "HOME": {
+    "TITLE": "I'm André, FrontEnd Mobile & Web Developer",
+    "EXPERIENCE_YEARS": "Experience years",
+    "PROJECTS_PARTICIPATION": "Projects participation",
+    "ABOUT_ME": "ABOUT ME",
+    "ABOUT_ME_DESCRIPTION": "I'm a diligent person with knowledge in differents development areas such as Frontend y Backend.",
+    "MY_WORK": "MY WORK",
+    "MY_WORK_DESCRIPTION": "I have worked in many diffente companies and by my own, getting knowledge in web development with Angular and mobile with Ionic and native Android.",
+    "CONTACT_ME": "CONTACT ME"
+  },
+  "ABOUT_ME":{
+    "PERSONAL_SKILLS": "Personal Skills",
+    "PERSONAL_SKILLS_DESCRIPTION": "I'm a person with initiative, motivation, responsability and commitment to get solution to any issue.",
+    "SKILLS": {
+      "SELF_TAUGHT": "Self-taught",
+      "AUTONOMY": "Autonomy",
+      "LEADERSHIP": "Leadership",
+      "PROACTIVE": "Proactive",
+      "DOWNTIME_WORK": "Downtime work",
+      "TEAM_WORK": "Team work"
+    },
+    "DEVELOPER": "Developer",
+    "DEVELOPER_DESCRIPTION": "I'm specialized in FrontEnd development, however I also have knowledge in BackEnd and databases, and I have professional experience with the next programming languages.",
+    "LANGUAGES": {
+      "TYPESCRIPT": "TypeScript",
+      "KOTLIN": "Kotlin",
+      "JAVASCRIPT": "JavaScript",
+      "JAVA": "Java",
+      "HTML": "HTML",
+      "SCSS": "SCSS",
+      "CSS": "CSS",
+      "CSHARP": "C#",
+      "SQL": "SQL",
+      "PHP": "PHP",
+      "CPLUSPLUS": "C++"
+    },
+    "FRAMEWORKS_AND_TECHNOLOGIES": "Frameworks and Technologies",
+    "FRAMEWORKS_AND_TECHNOLOGIES_DESCRIPTION": "I have experiencie in Mobile Application Development, Web Apps and API's, also experience using technologies such as cloud tools (databases, analytics, etc).",
+    "FRAMEWORKS": {
+      "ANGULAR": "Angular",
+      "IONIC": "Ionic",
+      "BOOTSTRAP": "Bootstrap",
+      "ANDROID_STUDIO": "Android Studio",
+      "SUPABASE": "Supabase",
+      "FIREBASE": "Firebase",
+      "NET_CORE": ".NET Core",
+      "SQL_SERVER": "SQL Server",
+      "MYSQL": "MySQL",
+      "VUE": "Vue",
+      "QUASAR": "Quasar"
+    },
+    "EXTRA_TOOLS": "Extra Tools",
+    "EXTRA_TOOLS_DESCRIPTION": "I have knowledge with various tools and technologies which help me to expand how many functionalities one project will have.",
+    "TOOLS": {
+      "GIT": "Git",
+      "NODEJS": "NodeJS",
+      "GOOGLE_CLOUD": "Google Cloud",
+      "MICROSOFT_AZURE": "Microsoft Azure",
+      "AWS": "AWS",
+      "CRASHLYTICS": "Crashlytics",
+      "MARKETING_CLOUD": "Marketing Cloud",
+      "AMPLITUDE_SDK": "Amplitude SDK",
+      "META_SDK": "Meta SDK",
+      "LEANPLUM": "Leanplum"
+    }
+  },
+  "FOOTER": {
+    "ME": {
+    "MY_NAME": "André Ibarra Pérez",
+    "ABOUT_ME": "Software Developer with 3 years of professional experience in native mobile applications using Android Studio (Kotlin and Java), as well as over a year of experience in FrontEnd Web development (Angular)."
+    },
+    "CONTACT": {
+      "TITLE": "Contact",
+      "LOCATION": "Tamaulipas, México",
+      "EMAIL": "ibarraandre98@gmail.com",
+      "PHONE": "+ 52 831 113 15 62",
+      "RESUME": "Resume"
+    },
+    "WORK_TOGETHER": {
+      "TITLE": "Let's work together",
+      "DESCRIPTION": "If you are interested in working with me, please contact me."
+    }
+  }
+}

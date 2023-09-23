@@ -1,39 +1,297 @@
 <div class="body">
-  <div class="body-background">
-    <img class="animate__animated animate__fadeInUp" src="../../../assets/André_Ibarra.png" alt="">
-  </div>
-  <div class="container-fluid">
-    <div class="row py-5">
-      <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
-        <div class="principal-item animate__animated animate__fadeInLeft">
-          <h1 class="px-auto">Soy André, FrontEnd Mobile & Web Developer</h1>
-        </div>
-      </div>
-      <div
-        class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center animate__animated animate__fadeInRight">
-        <div>
-          <div class="secondary-item">
-            <div class="secondary-item__title">
-              <h3>Acerca de mi</h3>
-            </div>
-            <div class="secondary-item__content">
-              <p>Soy una persona diligente y con conocimiento de desarrollo en distintas áreas del desarrollo Frontend y
-                Backend.
-              </p>
+  <div id="home" class="first-page">
+    <div class="first-page-background">
+      <img class="animate__animated animate__fadeInUp" src="../../../assets/André_Ibarra.png" alt="">
+    </div>
+
+    <div class="container-fluid text-center text-md-start">
+      <div class="row py-5">
+        <div class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center">
+          <div class="principal-item animate__animated animate__fadeInLeft pb-4">
+            <img class="animate__animated animate__fadeInDown py-4" src="../../../assets/André_Ibarra.png" alt="">
+            <h1 class="px-auto">{{ 'HOME.TITLE' | translate }}</h1>
+            <div class="d-flex flex-row gap-4 justify-content-between justify-content-lg-start pt-4">
+              <div class="d-flex flex-row align-items-center gap-1 principal-item__more-info">
+                <div class="d-flex flex-row align-items-center ">
+                  <h2>3</h2>
+                  <h3>+</h3>
+                </div>
+                <p>{{ 'HOME.EXPERIENCE_YEARS' | translate }}</p>
+              </div>
+              <div class="d-flex flex-row align-items-center gap-1 principal-item__more-info">
+                <div class="d-flex flex-row align-items-center">
+                  <h2>10</h2>
+                  <h3>+</h3>
+                </div>
+                <p>{{ 'HOME.PROJECTS_PARTICIPATION' | translate }}</p>
+              </div>
             </div>
           </div>
-          <div class="secondary-item pt-5">
-            <div class="secondary-item__title">
-              <h3>Mi trabajo</h3>
+        </div>
+        <div
+          class="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center align-items-center animate__animated animate__fadeInRight">
+          <div>
+            <div class="secondary-item pb-5">
+              <div class="secondary-item__title">
+                <h3>{{ 'HOME.ABOUT_ME' | translate }}</h3>
+              </div>
+              <div class="secondary-item__content">
+                <p>{{ 'HOME.ABOUT_ME_DESCRIPTION' | translate }}
+                </p>
+              </div>
             </div>
-            <div class="secondary-item__content">
-              <p>He laborado en distintas empresas y por cuenta propia adquiriendo conocimiento de desarrollo web con
-                Angular, y móvil con Ionic y Android nativo.</p>
+            <div class="secondary-item pb-5">
+              <div class="secondary-item__title">
+                <h3>{{ 'HOME.MY_WORK' | translate }}</h3>
+              </div>
+              <div class="secondary-item__content">
+                <p>{{ 'HOME.MY_WORK_DESCRIPTION' | translate }}</p>
+              </div>
+            </div>
+            <div class="secondary-item">
+              <div class="secondary-item__title">
+                <h3>{{ 'HOME.CONTACT_ME' | translate }}</h3>
+              </div>
+              <div class="secondary-item__content">
+                <div
+                  class="secondary-item__content__social-media d-flex flex-row justify-content-center justify-content-lg-start">
+                  <a href="" target="_blank">
+                    <fa-icon [icon]="faFile"></fa-icon>
+                  </a>
+                  <a href="https://github.com/muskops" target="_blank">
+                    <fa-icon [icon]="faGithub"></fa-icon>
+                  </a>
+                  <a href="https://www.linkedin.com/in/ibarraandre/" target="_blank">
+                    <fa-icon [icon]="faLinkedin"></fa-icon>
+                  </a>
+                  <a href="https://www.youtube.com/@Sk8Muski" target="_blank">
+                    <fa-icon [icon]="faYoutube"></fa-icon>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <div id="about" class="second-page py-5">
+    <div class="container">
+      <div class="row">
+        <div class="parent-card col-12 col-md-6">
+          <div class="card-about-me">
+            <h2 class="text-center text-md-start">01</h2>
+            <div class="card-about-me__title pt-sm-4 d-flex flex-column flex-sm-row align-items-center">
+              <span><fa-icon [icon]="faPenRuler"></fa-icon></span>
+              <div class="text-center text-sm-start">
+                <h3>{{ 'ABOUT_ME.PERSONAL_SKILLS' | translate }}</h3>
+                <p>{{ 'ABOUT_ME.PERSONAL_SKILLS_DESCRIPTION' | translate }}</p>
+              </div>
+            </div>
+            <div class="card-about-me__content pt-3 d-flex justify-content-center flex-wrap column-gap-5 row-gap-4">
+              <div>
+                <img src="../../../assets/personal_skills/autodidacta.png" alt="">
+                <p>{{ 'ABOUT_ME.SKILLS.SELF_TAUGHT' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/personal_skills/autonomia.png" alt="">
+                <p>{{ 'ABOUT_ME.SKILLS.AUTONOMY' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/personal_skills/liderazgo.png" alt="">
+                <p>{{ 'ABOUT_ME.SKILLS.LEADERSHIP' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/personal_skills/proactivo.png" alt="">
+                <p>{{ 'ABOUT_ME.SKILLS.PROACTIVE' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/personal_skills/reloj.png" alt="">
+                <p>{{ 'ABOUT_ME.SKILLS.DOWNTIME_WORK' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/personal_skills/workteam.png" alt="">
+                <p>{{ 'ABOUT_ME.SKILLS.TEAM_WORK' | translate }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="parent-card col-12 col-md-6">
+          <div class="card-about-me">
+            <h2 class="text-center text-md-start">02</h2>
+            <div class="card-about-me__title pt-sm-4 d-flex flex-column flex-sm-row align-items-center">
+              <span><fa-icon [icon]="faCode"></fa-icon></span>
+              <div class="text-center text-sm-start">
+                <h3>{{ 'ABOUT_ME.DEVELOPER' | translate }}</h3>
+                <p>{{ 'ABOUT_ME.DEVELOPER_DESCRIPTION' | translate }}</p>
+              </div>
+            </div>
+            <div class="card-about-me__content pt-3 d-flex justify-content-center flex-wrap column-gap-5 row-gap-4">
 
+              <div>
+                <img src="../../../assets/developer/ts.png" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.TYPESCRIPT' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/developer/kotlin.png" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.KOTLIN' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/developer/js.png" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.JAVASCRIPT' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/developer/java.png" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.JAVA' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/developer/html.png" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.HTML' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/developer/scss2.png" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.SCSS' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/developer/css3.webp" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.CSS' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/developer/csharp.png" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.CSHARP' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/developer/sql.png" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.SQL' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/developer/php.png" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.PHP' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/developer/cplusplus.png" alt="">
+                <p>{{ 'ABOUT_ME.LANGUAGES.CPLUSPLUS' | translate }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="parent-card col-12 col-md-6">
+          <div class="card-about-me">
+            <h2 class="text-center text-md-start">03</h2>
+            <div class="card-about-me__title pt-sm-4 d-flex flex-column flex-sm-row align-items-center">
+              <span><fa-icon [icon]="faMicrochip"></fa-icon></span>
+              <div class="text-center text-sm-start">
+                <h3>{{ 'ABOUT_ME.FRAMEWORKS_AND_TECHNOLOGIES' | translate }}</h3>
+                <p>{{ 'ABOUT_ME.FRAMEWORKS_AND_TECHNOLOGIES_DESCRIPTION' | translate }}</p>
+              </div>
+            </div>
+            <div class="card-about-me__content pt-3 d-flex justify-content-center flex-wrap column-gap-5 row-gap-4">
+              <div>
+                <img src="../../../assets/frameworks/angular.png" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.ANGULAR' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/frameworks/ionic.png" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.IONIC' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/frameworks/bootstrap.png" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.BOOTSTRAP' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/frameworks/as.webp" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.ANDROID_STUDIO' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/frameworks/supabase.png" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.SUPABASE' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/frameworks/firebase.png" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.FIREBASE' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/frameworks/net.png" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.NET_CORE' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/frameworks/sqlserver.png" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.SQL_SERVER' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/frameworks/mysql.png" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.MYSQL' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/frameworks/vue.png" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.VUE' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/frameworks/quasar.png" alt="">
+                <p>{{ 'ABOUT_ME.FRAMEWORKS.QUASAR' | translate }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="parent-card col-12 col-md-6">
+          <div class="card-about-me">
+            <h2 class="text-center text-md-start">04</h2>
+            <div class="card-about-me__title pt-sm-4 d-flex flex-column flex-sm-row align-items-center">
+              <span><fa-icon [icon]="faLaptopCode"></fa-icon></span>
+              <div class="text-center text-sm-start">
+                <h3>{{ 'ABOUT_ME.EXTRA_TOOLS' | translate }}</h3>
+                <p>{{ 'ABOUT_ME.EXTRA_TOOLS_DESCRIPTION' | translate }}
+                </p>
+              </div>
+            </div>
+            <div class="card-about-me__content pt-3 d-flex justify-content-center flex-wrap column-gap-5 row-gap-4">
+              <div>
+                <img src="../../../assets/extra_tools/git.png" alt="">
+                <p>{{ 'ABOUT_ME.TOOLS.GIT' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/extra_tools/nodejs.png" alt="">
+                <p>{{ 'ABOUT_ME.TOOLS.NODEJS' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/extra_tools/google-cloud-platform.png" alt="">
+                <p>{{ 'ABOUT_ME.TOOLS.GOOGLE_CLOUD' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/extra_tools/azure.png" alt="">
+                <p>{{ 'ABOUT_ME.TOOLS.MICROSOFT_AZURE' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/extra_tools/amazon.png" alt="">
+                <p>{{ 'ABOUT_ME.TOOLS.AWS' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/extra_tools/crashlytics.png" alt="">
+                <p>{{ 'ABOUT_ME.TOOLS.CRASHLYTICS' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/extra_tools/marketing-cloud.png" alt="">
+                <p>{{ 'ABOUT_ME.TOOLS.MARKETING_CLOUD' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/extra_tools/amplitude.png" alt="">
+                <p>{{ 'ABOUT_ME.TOOLS.AMPLITUDE_SDK' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/extra_tools/meta.png" alt="">
+                <p>{{ 'ABOUT_ME.TOOLS.META_SDK' | translate }}</p>
+              </div>
+              <div>
+                <img src="../../../assets/extra_tools/leanplum.png" alt="">
+                <p>{{ 'ABOUT_ME.TOOLS.LEANPLUM' | translate }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="myProjects" class="x-page">
+
+  </div>
 </div>

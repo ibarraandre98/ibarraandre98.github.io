@@ -1,0 +1,78 @@
+h4 {
+  &:after {
+    content: "";
+    display: block;
+    width: 40%;
+    border: 1px solid;
+    margin-top: 10px;
+  }
+}
+
+.contact-page {
+  font-weight: 300;
+  background-color: #1b1f24;
+  color: #fbfcfd;
+
+  &__about-me {
+    p {
+      width: 75%;
+      text-align: justify;
+    }
+  }
+
+  &__contact {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        &:not(:first-child) {
+          padding-top: 10px;
+        }
+        span {
+          margin-right: 1em;
+        }
+        a {
+          color: #226eb4;
+          font-weight: 500;
+          &:hover {
+            border-bottom: 1px solid #226eb4;
+          }
+        }
+      }
+    }
+  }
+
+  &__work-together {
+    p {
+      width: 75%;
+      text-align: justify;
+    }
+    ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      gap: 20px;
+      li {
+        height: 50px;
+        width: 50px;
+        border: 0.5px solid #fbfcfd;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover {
+          background-color: #fbfcfd;
+          color: #226eb4;
+        }
+
+        span {
+          font-size: 1.3em;
+        }
+      }
+    }
+  }
+}

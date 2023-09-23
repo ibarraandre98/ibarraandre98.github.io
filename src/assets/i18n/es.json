@@ -1,0 +1,16 @@
+{
+  "HEADER": {
+    "MENU": {
+      "HOME": "Inicio",
+      "ABOUT": "Acerca de mi",
+      "MY_PROJECTS": "Mis proyectos",
+      "ACHIEVEMENTS": "Logros",
+      "CONTACT": "Contacto",
+      "LANGUAGE": {
+        "TITLE": "Idioma",
+        "SPANISH": "Español",
+        "ENGLISH": "Inglés"
+      }
+    }
+  }
+}
