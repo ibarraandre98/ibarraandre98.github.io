@@ -11,7 +11,7 @@ export class HeaderComponent {
   public faBars = faBars;
   public faEarthAmericas = faEarthAmericas;
   public buttonMenu = false;
-  activeSection: string | null = null;
+  activeSection: string | null = 'home';
   sections = ['home', 'about', 'myProjects', 'achievements', 'contact'];
   public translate = inject(TranslateService);
   public storagedLanguage: string = localStorage.getItem('language')!;
@@ -72,5 +72,6 @@ export class HeaderComponent {
     console.log(selectedValue.value);
     localStorage.setItem('language', selectedValue.value);
     this.translate.setDefaultLang(selectedValue.value);
+    window.location.reload();
   }
 }

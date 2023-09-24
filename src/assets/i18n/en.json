@@ -94,6 +94,9 @@
     "WORK_TOGETHER": {
       "TITLE": "Let's work together",
       "DESCRIPTION": "If you are interested in working with me, please contact me."
+    },
+    "BY": {
+      "TITLE": "Developed by André Ibarra Pérez with Angular 16 and Bootstrap 5 in 2023."
     }
   }
 }
