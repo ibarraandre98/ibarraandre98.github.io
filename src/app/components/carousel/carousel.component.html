@@ -1,0 +1,26 @@
+<div class="mx-5 py-5">
+  <h2 class="text-center pb-4">{{title | translate}}</h2>
+  <div *ngIf="images && images.length > 0" class="carousel-container" [ngStyle]="heightImg">
+    <img *ngFor="let image of images; let i = index" [src]="image.src" [alt]="image.alt"
+      [ngClass]="selectedIndex === i ? 'image-active' : 'false'" class="anim-fade" (click)="openModal()">
+    <div *ngIf="indicators" class="carousel-dot-container">
+      <span *ngFor="let dot of images; let i = index" class="dot" [ngClass]="{'active': selectedIndex === i}"
+        (click)="selectImage(i)">
+      </span>
+    </div>
+    <div *ngIf="controls" class="btn-carousel btn-prev">
+      <fa-icon class="icon-carousel icon-prev" [icon]="faArrowCircleLeft" (click)="onPrevClick()"></fa-icon>
+    </div>
+
+    <div *ngIf="controls" class="btn-carousel btn-next">
+      <fa-icon class="icon-carousel icon-next" [icon]="faArrowCircleRight" (click)="onNextClick()"></fa-icon>
+    </div>
+  </div>
+</div>
+
+
+<swal #imageViewer [showCancelButton]="false" [showConfirmButton]="false" (didClose)="closeModal()">
+  <div *swalPortal="swalTargets.content" class="p-4">
+    <img [src]="images[selectedIndex].src" alt="">
+  </div>
+</swal>

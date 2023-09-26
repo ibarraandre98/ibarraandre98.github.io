@@ -64,9 +64,21 @@ h4 {
         align-items: center;
         cursor: pointer;
         transition: all 0.3s;
+
+        a {
+          color: #fbfcfd;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
         &:hover {
           background-color: #fbfcfd;
-          color: #226eb4;
+          a {
+            color: #226eb4;
+          }
         }
 
         span {

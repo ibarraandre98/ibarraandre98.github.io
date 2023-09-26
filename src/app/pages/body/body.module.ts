@@ -5,9 +5,17 @@ import { BodyRoutingModule } from './body-routing.module';
 import { BodyComponent } from './body.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SharedModule } from 'src/app/shared.module';
+import { CarouselComponent } from 'src/app/components/carousel/carousel.component';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 @NgModule({
-  declarations: [BodyComponent],
-  imports: [CommonModule, BodyRoutingModule, FontAwesomeModule, SharedModule],
+  declarations: [BodyComponent, CarouselComponent],
+  imports: [
+    CommonModule,
+    BodyRoutingModule,
+    FontAwesomeModule,
+    SharedModule,
+    SweetAlert2Module.forRoot(),
+  ],
 })
 export class BodyModule {}

@@ -24,6 +24,7 @@
     "CONTACT_ME": "CONTACTAME"
   },
   "ABOUT_ME":{
+    "TITLE": "Acerca de mi",
     "PERSONAL_SKILLS": "Habilidades personales",
     "PERSONAL_SKILLS_DESCRIPTION": "Soy una persona con iniciativa, motivación, responsabilidad y compromiso para poder solucionar cualquier problema.",
     "SKILLS": {
@@ -78,6 +79,10 @@
       "META_SDK": "Meta SDK",
       "LEANPLUM": "Leanplum"
     }
+  },
+  "ACHIEVEMENTS": {
+    "ACHIEVEMENTS": "Mis logros, Reconocimientos",
+    "COURSES": "Mis Cursos"
   },
   "FOOTER": {
     "ME": {

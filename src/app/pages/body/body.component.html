@@ -77,6 +77,7 @@
   </div>
   <div id="about" class="second-page py-5">
     <div class="container">
+      <h1 class="text-center">{{ 'ABOUT_ME.TITLE' | translate }}</h1>
       <div class="row">
         <div class="parent-card col-12 col-md-6">
           <div class="card-about-me">
@@ -89,29 +90,9 @@
               </div>
             </div>
             <div class="card-about-me__content pt-3 d-flex justify-content-center flex-wrap column-gap-5 row-gap-4">
-              <div>
-                <img src="../../../assets/personal_skills/autodidacta.png" alt="">
-                <p>{{ 'ABOUT_ME.SKILLS.SELF_TAUGHT' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/personal_skills/autonomia.png" alt="">
-                <p>{{ 'ABOUT_ME.SKILLS.AUTONOMY' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/personal_skills/liderazgo.png" alt="">
-                <p>{{ 'ABOUT_ME.SKILLS.LEADERSHIP' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/personal_skills/proactivo.png" alt="">
-                <p>{{ 'ABOUT_ME.SKILLS.PROACTIVE' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/personal_skills/reloj.png" alt="">
-                <p>{{ 'ABOUT_ME.SKILLS.DOWNTIME_WORK' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/personal_skills/workteam.png" alt="">
-                <p>{{ 'ABOUT_ME.SKILLS.TEAM_WORK' | translate }}</p>
+              <div *ngFor="let item of aboutMeArray">
+                <img [src]="item.img" alt="">
+                <p>{{ item.par | translate }}</p>
               </div>
             </div>
           </div>
@@ -127,50 +108,9 @@
               </div>
             </div>
             <div class="card-about-me__content pt-3 d-flex justify-content-center flex-wrap column-gap-5 row-gap-4">
-
-              <div>
-                <img src="../../../assets/developer/ts.png" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.TYPESCRIPT' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/developer/kotlin.png" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.KOTLIN' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/developer/js.png" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.JAVASCRIPT' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/developer/java.png" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.JAVA' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/developer/html.png" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.HTML' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/developer/scss2.png" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.SCSS' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/developer/css3.webp" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.CSS' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/developer/csharp.png" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.CSHARP' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/developer/sql.png" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.SQL' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/developer/php.png" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.PHP' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/developer/cplusplus.png" alt="">
-                <p>{{ 'ABOUT_ME.LANGUAGES.CPLUSPLUS' | translate }}</p>
+              <div *ngFor="let item of developerArray">
+                <img [src]="item.img" alt="">
+                <p>{{ item.par | translate }}</p>
               </div>
             </div>
           </div>
@@ -186,49 +126,9 @@
               </div>
             </div>
             <div class="card-about-me__content pt-3 d-flex justify-content-center flex-wrap column-gap-5 row-gap-4">
-              <div>
-                <img src="../../../assets/frameworks/angular.png" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.ANGULAR' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/frameworks/ionic.png" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.IONIC' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/frameworks/bootstrap.png" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.BOOTSTRAP' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/frameworks/as.webp" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.ANDROID_STUDIO' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/frameworks/supabase.png" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.SUPABASE' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/frameworks/firebase.png" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.FIREBASE' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/frameworks/net.png" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.NET_CORE' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/frameworks/sqlserver.png" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.SQL_SERVER' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/frameworks/mysql.png" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.MYSQL' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/frameworks/vue.png" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.VUE' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/frameworks/quasar.png" alt="">
-                <p>{{ 'ABOUT_ME.FRAMEWORKS.QUASAR' | translate }}</p>
+              <div *ngFor="let item of frameworksArray">
+                <img [src]="item.img" alt="">
+                <p>{{ item.par | translate }}</p>
               </div>
             </div>
           </div>
@@ -245,45 +145,9 @@
               </div>
             </div>
             <div class="card-about-me__content pt-3 d-flex justify-content-center flex-wrap column-gap-5 row-gap-4">
-              <div>
-                <img src="../../../assets/extra_tools/git.png" alt="">
-                <p>{{ 'ABOUT_ME.TOOLS.GIT' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/extra_tools/nodejs.png" alt="">
-                <p>{{ 'ABOUT_ME.TOOLS.NODEJS' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/extra_tools/google-cloud-platform.png" alt="">
-                <p>{{ 'ABOUT_ME.TOOLS.GOOGLE_CLOUD' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/extra_tools/azure.png" alt="">
-                <p>{{ 'ABOUT_ME.TOOLS.MICROSOFT_AZURE' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/extra_tools/amazon.png" alt="">
-                <p>{{ 'ABOUT_ME.TOOLS.AWS' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/extra_tools/crashlytics.png" alt="">
-                <p>{{ 'ABOUT_ME.TOOLS.CRASHLYTICS' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/extra_tools/marketing-cloud.png" alt="">
-                <p>{{ 'ABOUT_ME.TOOLS.MARKETING_CLOUD' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/extra_tools/amplitude.png" alt="">
-                <p>{{ 'ABOUT_ME.TOOLS.AMPLITUDE_SDK' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/extra_tools/meta.png" alt="">
-                <p>{{ 'ABOUT_ME.TOOLS.META_SDK' | translate }}</p>
-              </div>
-              <div>
-                <img src="../../../assets/extra_tools/leanplum.png" alt="">
-                <p>{{ 'ABOUT_ME.TOOLS.LEANPLUM' | translate }}</p>
+              <div *ngFor="let item of toolsArray">
+                <img [src]="item.img" alt="">
+                <p>{{ item.par | translate }}</p>
               </div>
             </div>
           </div>
@@ -292,6 +156,9 @@
     </div>
   </div>
   <div id="myProjects" class="x-page">
-
+    <app-carousel [title]="'ACHIEVEMENTS.ACHIEVEMENTS'" [heightImg]="{'height': '600px'}" [images]="achievementsArray"
+      [autoSlide]="true"></app-carousel>
+    <app-carousel [title]="'ACHIEVEMENTS.COURSES'" [heightImg]="{'height': '375px'}" [images]="coursesArray"
+      [autoSlide]="true"></app-carousel>
   </div>
 </div>
