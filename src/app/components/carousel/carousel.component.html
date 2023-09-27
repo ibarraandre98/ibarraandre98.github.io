@@ -19,8 +19,10 @@
 </div>
 
 
-<swal #imageViewer [showCancelButton]="false" [showConfirmButton]="false" (didClose)="closeModal()">
-  <div *swalPortal="swalTargets.content" class="p-4">
-    <img [src]="images[selectedIndex].src" alt="">
+<swal class="swal-style" #imageViewer [showCancelButton]="false" [showConfirmButton]="false"
+  (didClose)="autoSlideContinue()">
+  <div ngClass="swal-style__container" *swalPortal="swalTargets.content" class="p-4">
+    <fa-icon [icon]="faCircleXMark" (click)="closeModal()">close</fa-icon>
+    <img class="swal-style__img" [src]="images[selectedIndex].src" alt="">
   </div>
 </swal>

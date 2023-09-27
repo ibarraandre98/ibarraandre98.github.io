@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {
   faFile,
   faPlus,
@@ -19,7 +19,7 @@ import { NavigationEnd, Router } from '@angular/router';
   templateUrl: './body.component.html',
   styleUrls: ['./body.component.scss'],
 })
-export class BodyComponent {
+export class BodyComponent implements OnInit {
   public faFile = faFile;
   public faGithub = faGithub;
   public faLinkedin = faLinkedin;
@@ -29,7 +29,8 @@ export class BodyComponent {
   public faLaptopCode = faLaptopCode;
   public faMicrochip = faMicrochip;
   public faCode = faCode;
-  public muski = true;
+
+  public resumePath = 'assets/resume/resumeEnglish.pdf';
 
   public aboutMeArray = [
     {
@@ -327,5 +328,12 @@ export class BodyComponent {
         window.scrollTo(0, 0); // Scroll to the top of the page
       }
     });
+  }
+  ngOnInit(): void {
+    if (localStorage.getItem('language') == 'en') {
+      this.resumePath = 'assets/resume/resumeEnglish.pdf';
+    } else if (localStorage.getItem('language') == 'es') {
+      this.resumePath = 'assets/resume/resume.pdf';
+    }
   }
 }

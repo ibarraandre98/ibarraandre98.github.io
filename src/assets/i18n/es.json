@@ -80,9 +80,13 @@
       "LEANPLUM": "Leanplum"
     }
   },
+  "MY_PROJECTS": {
+    "TITLE": "Mis Proyectos"
+  },
   "ACHIEVEMENTS": {
     "ACHIEVEMENTS": "Mis logros, Reconocimientos",
-    "COURSES": "Mis Cursos"
+    "COURSES": "Mis Cursos",
+    "RESUME": "Curriculum Vitae"
   },
   "FOOTER": {
     "ME": {

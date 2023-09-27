@@ -7,6 +7,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { SharedModule } from 'src/app/shared.module';
 import { CarouselComponent } from 'src/app/components/carousel/carousel.component';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 @NgModule({
   declarations: [BodyComponent, CarouselComponent],
@@ -16,6 +17,8 @@ import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
     FontAwesomeModule,
     SharedModule,
     SweetAlert2Module.forRoot(),
+    NgxExtendedPdfViewerModule,
   ],
+  providers: [],
 })
 export class BodyModule {}

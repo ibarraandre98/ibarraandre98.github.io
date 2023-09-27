@@ -155,10 +155,44 @@
       </div>
     </div>
   </div>
-  <div id="myProjects" class="x-page">
+  <div id="myProjects" class="my-projects-page">
+    <h2>{{ 'MY_PROJECTS.TITLE' | translate }}</h2>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="my-projects-page__card-project">
+            <img src="../../../assets/frameworks/angular.png" alt="">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="my-projects-page__card-project">
+            <img src="../../../assets/frameworks/angular.png" alt="">
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="my-projects-page__card-project">
+            <img src="../../../assets/frameworks/angular.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="myProjects" class="achievement-page">
     <app-carousel [title]="'ACHIEVEMENTS.ACHIEVEMENTS'" [heightImg]="{'height': '600px'}" [images]="achievementsArray"
       [autoSlide]="true"></app-carousel>
     <app-carousel [title]="'ACHIEVEMENTS.COURSES'" [heightImg]="{'height': '375px'}" [images]="coursesArray"
       [autoSlide]="true"></app-carousel>
+    <div class="resume">
+      <h2>{{ 'ACHIEVEMENTS.RESUME' | translate}}</h2>
+      <ngx-extended-pdf-viewer [src]="resumePath" [useBrowserLocale]="true" [minifiedJSLibraries]="false"
+        [height]="'90vh'" [pageViewMode]="'single'" [mobileFriendlyZoom]="'150%'" backgroundColor="#ffffff"
+        [showSidebarButton]="false" [showFindButton]="true" [showPagingButtons]="true" [showDrawEditor]="false"
+        [showTextEditor]="false" [showZoomButtons]="true" [showPresentationModeButton]="true"
+        [showOpenFileButton]="false" [showPrintButton]="true" [showDownloadButton]="true"
+        [showSecondaryToolbarButton]="true" [showRotateButton]="false" [showHandToolButton]="true"
+        [showScrollingButton]="true" [showSpreadButton]="true" [showPropertiesButton]="true"></ngx-extended-pdf-viewer>
+    </div>
   </div>
+
+
 </div>

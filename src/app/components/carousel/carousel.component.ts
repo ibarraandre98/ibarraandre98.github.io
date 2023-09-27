@@ -2,6 +2,7 @@ import { Component, Input, OnInit, ViewChild, inject } from '@angular/core';
 import {
   faArrowCircleLeft,
   faArrowCircleRight,
+  faCircleXmark,
 } from '@fortawesome/free-solid-svg-icons';
 import { SwalComponent, SwalPortalTargets } from '@sweetalert2/ngx-sweetalert2';
 import { CarouselImage } from 'src/app/shared/interfaces/CarouselImage';
@@ -24,6 +25,7 @@ export class CarouselComponent implements OnInit {
 
   public faArrowCircleLeft = faArrowCircleLeft;
   public faArrowCircleRight = faArrowCircleRight;
+  public faCircleXMark = faCircleXmark;
 
   public selectedIndex: number = 0;
   private autoSlideInterval: any;
@@ -65,7 +67,11 @@ export class CarouselComponent implements OnInit {
     this.imageViewer.fire();
   }
 
-  public closeModal() {
+  public autoSlideContinue() {
     this.autoSlideImages();
+  }
+
+  public closeModal() {
+    this.imageViewer.close();
   }
 }

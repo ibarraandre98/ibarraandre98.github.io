@@ -111,3 +111,26 @@
 .btn-next {
   right: 0;
 }
+
+.swal-style {
+  &__container {
+    fa-icon {
+      position: absolute;
+      right: 5%;
+      top: 5%;
+      cursor: pointer;
+      font-size: 1.25em;
+    }
+  }
+
+  &__img {
+    width: 60%;
+  }
+}
+
+@media (width < 576px) {
+  .carousel-container {
+    max-width: 100%;
+    height: 350px !important;
+  }
+}
