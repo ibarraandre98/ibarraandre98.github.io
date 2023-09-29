@@ -25,7 +25,16 @@ export class HeaderComponent {
 
   public scrollToSection(sectionId: string) {
     const section = document.getElementById(sectionId);
-    section?.scrollIntoView({ behavior: 'smooth' });
+
+    if (section) {
+      const offset = section.offsetTop - 70;
+      window.scrollTo({
+        top: offset,
+        behavior: 'smooth',
+      });
+    }
+
+    if (this.buttonMenu) this.buttonMenu = false;
   }
 
   @HostListener('window:scroll', [])
@@ -35,17 +44,24 @@ export class HeaderComponent {
 
   determineActiveSection(): void {
     const currentScrollY = window.scrollY;
-    for (const section of this.sections) {
+    const documentHeight = document.documentElement.scrollHeight;
+    const windowHeight = window.innerHeight;
+
+    if (currentScrollY + windowHeight >= documentHeight) {
+      this.activeSection = 'contact';
+      this.activateNavigationLink('contact');
+      return;
+    }
+
+    for (let i = 0; i <= this.sections.length - 1; i++) {
+      const section = this.sections[i];
       const sectionElement = document.getElementById(section);
+
       if (sectionElement) {
         const rect = sectionElement.getBoundingClientRect();
-        if (
-          rect.top <= currentScrollY + 100 &&
-          rect.bottom >= currentScrollY + 100
-        ) {
-          console.log(section);
-          //this.activateNavigationLink(section);
+        if (rect.top <= +200 && rect.bottom >= +200) {
           this.activeSection = section;
+          this.activateNavigationLink(section);
           return;
         }
       }
@@ -69,7 +85,6 @@ export class HeaderComponent {
 
   onSelectChangeLanguage(event: Event) {
     const selectedValue = event.target as HTMLSelectElement;
-    console.log(selectedValue.value);
     localStorage.setItem('language', selectedValue.value);
     this.translate.setDefaultLang(selectedValue.value);
     window.location.reload();

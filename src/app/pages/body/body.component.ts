@@ -13,7 +13,6 @@ import {
   faLinkedin,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
-import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-body',
@@ -324,13 +323,6 @@ export class BodyComponent implements OnInit {
     },
   ];
 
-  constructor(private router: Router) {
-    this.router.events.subscribe((event) => {
-      if (event instanceof NavigationEnd) {
-        window.scrollTo(0, 0); // Scroll to the top of the page
-      }
-    });
-  }
   ngOnInit(): void {
     if (localStorage.getItem('language') == 'en') {
       this.resumePath = 'assets/resume/resumeEnglish.pdf';

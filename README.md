@@ -1,4 +1,36 @@
-# Ibarraandre
+# Angular ibarraandre.github.io
+
+## General Info
+
+### Project description
+
+Angular portfolio web to show my experience.
+
+### Technology stack
+
+- Language - Typescript
+- IDE - Visual Studio Code
+- Build plugin - Angular CLI 16.2.0 | NodeJS 18.14.2 | Package Manager 9.5.0
+
+### Project useful links
+
+- Github - https://github.com/ibarraandre98/ibarraandre98.github.io
+- Angular documentation - https://angular.io/cli
+- NodeJS documentation - https://nodejs.org/en
+
+## How to setup
+
+- Go to https://nodejs.org/en and install the correct version.
+- Go to https://angular.io/cli and get the install command.
+- Run Powershell as administrator and run "npm install -g @angular/cli" (with the correct version) to install Angular.
+- Checkout the latest version of the code with the _git clone_ command.
+- Open the project on Visual Studio Code.
+- Run "npm install" to install all the node modules.
+- To run the project "ng serve --host 0.0.0.0"
+- To see project in (mobile other pc's) devices in localhost run "ng serve --host 0.0.0.0"
+- To build the project to publish run "ng build --output-path docs --base-href https://ibarraandre98.github.io/"
+- To update portfolio push changes to master, and this automatically runs a workflow and update ibarraandre98.github.io
+- To run tests run "ng test".
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
