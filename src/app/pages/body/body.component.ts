@@ -335,7 +335,7 @@ export class BodyComponent implements OnInit {
     if (localStorage.getItem('language') == 'en') {
       this.resumePath = 'assets/resume/resumeEnglish.pdf';
     } else if (localStorage.getItem('language') == 'es') {
-      this.resumePath = 'assets/resume/resume.pdf';
+      this.resumePath = 'assets/resume/resumeSpanish.pdf';
     }
   }
 }
