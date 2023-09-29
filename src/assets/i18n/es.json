@@ -81,7 +81,32 @@
     }
   },
   "MY_PROJECTS": {
-    "TITLE": "Mis Proyectos"
+    "TITLE": "Participación en Proyectos",
+    "DESCRIPTION": "Estos son algunos de los proyectos en los que he participado, tanto en el desarrollo de aplicaciones móviles como en el desarrollo de aplicaciones web y algunos otros que describo en mi CV.",
+    "OXXO": {
+      "TITLE":"mi OXXO App",
+      "DESCRIPTION": "Aplicación desarrollada en Android, realiza pagos rápidos y recargas, muestra promociones y cupones de productos, además de servicio de delivery."
+    },
+    "COMENZANDO_JUNTOS": {
+      "TITLE": "Comenzando Juntos",
+      "DESCRIPTION": "Aplicación web desarrollada en AngujarJS, API en .NET alojada en Azure, proyecto de FEMSA como estrategia para impulsar el desarrollo de niños."
+    },
+    "WIBE": {
+      "TITLE": "Wibe App - BBVA",
+      "DESCRIPTION": "Aplicación desarrollada en Android, realiza contrataciones y cotizaciones de seguros de autos y motocicletas, entre otras funcionalidades de utilidad."
+    },
+    "CEMEX_GO_DRIVER": {
+      "TITLE": "CEMEX Go Driver",
+      "DESCRIPTION": "Aplicación desarrollada en Android, administración electrónica de entregas de productos de la marca para uso de choferes y conductores para gestionar sus entregas."
+    },
+    "SQUIRK": {
+      "TITLE": "Squirk",
+      "DESCRIPTION": "Landing page desarrollada en Angular y Firebase, con la finalidad de transformar a los visitantes en clientes del producto lubricante Squirk con prospectos a convertirse en mayoristas potenciales."
+    },
+    "ABOLENGOS": {
+      "TITLE": "CBA",
+      "DESCRIPTION": "Aplicación desarrollada Ionic + Angular y Supabase, con la finalidad de llevar un registro y modalidad de reservación de eventos en diversas Quintas del cliente, 100% desarrollada por mi."
+    }
   },
   "ACHIEVEMENTS": {
     "ACHIEVEMENTS": "Mis logros, Reconocimientos",

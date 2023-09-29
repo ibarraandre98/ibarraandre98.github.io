@@ -9,6 +9,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import {
   faGithub,
+  faGooglePlay,
   faLinkedin,
   faYoutube,
 } from '@fortawesome/free-brands-svg-icons';
@@ -29,6 +30,7 @@ export class BodyComponent implements OnInit {
   public faLaptopCode = faLaptopCode;
   public faMicrochip = faMicrochip;
   public faCode = faCode;
+  public faGooglePlay = faGooglePlay;
 
   public resumePath = 'assets/resume/resumeEnglish.pdf';
 

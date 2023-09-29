@@ -134,38 +134,128 @@
 }
 
 .my-projects-page {
-  h2 {
+  &__title {
     text-align: center;
-    padding: 20px 0;
+    margin-top: 20px;
+  }
+  &__description {
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 300;
+    padding: 10px 0;
   }
   &__card-project {
     position: relative;
-    background-color: green;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
+    height: 260px;
     width: 100%;
     min-width: 200px;
     border-radius: 20px;
     img {
-      height: 100px;
+      height: 45%;
+    }
+
+    &__description {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: #1b1f24;
+      border-radius: 20px;
+      transition: all 0.5s;
+      opacity: 0;
+      color: #fbfcfd;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 15px 30px;
+      text-align: justify;
+
+      h3 {
+        font-weight: 600;
+      }
+
+      p {
+        font-weight: 300;
+      }
+
+      img {
+        height: 50px;
+      }
+
+      a {
+        font-size: 2em;
+        color: #1b1f24;
+
+        img {
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          animation: pulse 2s ease-in-out infinite;
+        }
+      }
     }
 
     &:hover {
-      &:before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: blue;
-        border-radius: 20px;
+      .my-projects-page__card-project__description {
+        opacity: 0.95;
       }
     }
   }
 }
 
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Normal size */
+  }
+  50% {
+    transform: scale(1.1); /* Slightly larger size */
+  }
+  100% {
+    transform: scale(1); /* Back to normal size */
+  }
+}
+
+.project-mi-oxxo {
+  background-color: #e21c2a;
+}
+
+.project-comenzando-juntos {
+  background: rgb(245, 92, 47);
+  background: linear-gradient(
+    304deg,
+    rgba(245, 92, 47, 1) 0%,
+    rgba(236, 160, 0, 1) 100%
+  );
+}
+
+.project-wibe {
+  background-color: #08b25c;
+}
+
+.project-cemex {
+  background: rgb(2, 10, 70);
+  background: linear-gradient(
+    180deg,
+    rgba(2, 10, 70, 1) 0%,
+    rgba(17, 73, 148, 1) 100%
+  );
+}
+
+.project-squirk {
+  background-color: #14833e;
+}
+
+.project-abolengos {
+  background-color: #261012;
+}
+
 .achievement-page {
+  margin-top: 50px;
   .resume {
     padding: 5% 10%;
     text-align: center;

@@ -81,7 +81,32 @@
     }
   },
   "MY_PROJECTS": {
-    "TITLE": "My Projects"
+    "TITLE": "Projects I have participated",
+    "DESCRIPTION": "These are some of the projects in which I have participated, such as in mobile application development and web development and some others that I describe in my resume.",
+    "OXXO": {
+      "TITLE":"mi OXXO App",
+      "DESCRIPTION": "App developed in Android, which make fast payments, air time recharges, shows products promotions and coupons also delivery service."
+    },
+    "COMENZANDO_JUNTOS": {
+      "TITLE": "Comenzando Juntos",
+      "DESCRIPTION": "Web application developed in AngularJS, API in .NET hosted in Azure, FEMSA project as strategy to promote children's development."
+    },
+    "WIBE": {
+      "TITLE": "Wibe App - BBVA",
+      "DESCRIPTION": "App developed in Android, makes contracts and quotes for cars and motorcycles insurance, among other features."
+    },
+    "CEMEX_GO_DRIVER": {
+      "TITLE": "CEMEX Go Driver",
+      "DESCRIPTION": "App developed in Android, electronic management of deliveries of branded product for drivers use to manage their deliveries."
+    },
+    "SQUIRK": {
+      "TITLE": "Squirk",
+      "DESCRIPTION": "Landing page developed in Angular and Firebase, with the goal to transform visitants to product customer of lubricant Squirk with prospect to become potential wholesalers."
+    },
+    "ABOLENGOS": {
+      "TITLE": "CBA",
+      "DESCRIPTION": "App developed in Ionic + Angular and Supabase, with the goal to have a record and make events reservations of many client's villa rental, developed from scratch by me."
+    }
   },
   "ACHIEVEMENTS": {
     "ACHIEVEMENTS": "My Achievements, Acknowledgments",
