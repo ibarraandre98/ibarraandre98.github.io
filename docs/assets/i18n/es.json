@@ -1,0 +1,136 @@
+{
+  "HEADER": {
+    "MENU": {
+      "HOME": "Inicio",
+      "ABOUT": "Acerca de mi",
+      "MY_PROJECTS": "Mis proyectos",
+      "ACHIEVEMENTS": "Mis logros",
+      "CONTACT": "Contacto",
+      "LANGUAGE": {
+        "TITLE": "Idioma",
+        "SPANISH": "Español",
+        "ENGLISH": "Inglés"
+      }
+    }
+  },
+  "HOME": {
+    "TITLE": "Soy André, FrontEnd Mobile & Web Developer",
+    "EXPERIENCE_YEARS": "Años de experiencia",
+    "PROJECTS_PARTICIPATION": "Participación en proyectos",
+    "ABOUT_ME": "ACERCA DE MI",
+    "ABOUT_ME_DESCRIPTION": "Soy una persona diligente y con conocimiento en distintas áreas del desarrollo FrontEnd y Backend.",
+    "MY_WORK": "MI TRABAJO",
+    "MY_WORK_DESCRIPTION": "He laborado en distintas empresas y por cuenta propia, adquiriendo experiencia y conocimiento de desarrollo web con Angular y móvil con Ionic y Android nativo.",
+    "CONTACT_ME": "CONTACTAME"
+  },
+  "ABOUT_ME":{
+    "TITLE": "Acerca de mi",
+    "PERSONAL_SKILLS": "Habilidades personales",
+    "PERSONAL_SKILLS_DESCRIPTION": "Soy una persona con iniciativa, motivación, responsabilidad y compromiso para poder solucionar cualquier problema.",
+    "SKILLS": {
+      "SELF_TAUGHT": "Autodidacta",
+      "AUTONOMY": "Autonomía",
+      "LEADERSHIP": "Liderazgo",
+      "PROACTIVE": "Proactivo",
+      "DOWNTIME_WORK": "Trabajo bajo tiempo",
+      "TEAM_WORK": "Trabajo en equipo"
+    },
+    "DEVELOPER": "Desarrollador",
+    "DEVELOPER_DESCRIPTION": "Me especializo en el desarrollo FrontEnd, sin embargo también cuento con experiencia y conocimiento en BackEnd y Bases de datos, además de contar con experiencia profesional con los siguientes lenguajes de programación.",
+    "LANGUAGES": {
+      "TYPESCRIPT": "TypeScript",
+      "KOTLIN": "Kotlin",
+      "JAVASCRIPT": "JavaScript",
+      "JAVA": "Java",
+      "HTML": "HTML",
+      "SCSS": "SCSS",
+      "CSS": "CSS",
+      "CSHARP": "C#",
+      "SQL": "SQL",
+      "PHP": "PHP",
+      "CPLUSPLUS": "C++"
+    },
+    "FRAMEWORKS_AND_TECHNOLOGIES": "Frameworks y Technologías",
+    "FRAMEWORKS_AND_TECHNOLOGIES_DESCRIPTION": "Tengo experiencia en el desarrollo de aplicaciones móviles, apps web y API's, además de experiencia con el uso de tecnologías de herramientas en la nube (Bases de datos, analytics, etc.).",
+    "FRAMEWORKS": {
+      "ANGULAR": "Angular",
+      "IONIC": "Ionic",
+      "BOOTSTRAP": "Bootstrap",
+      "ANDROID_STUDIO": "Android Studio",
+      "SUPABASE": "Supabase",
+      "FIREBASE": "Firebase",
+      "NET_CORE": ".NET Core",
+      "SQL_SERVER": "SQL Server",
+      "MYSQL": "MySQL",
+      "VUE": "Vue",
+      "QUASAR": "Quasar"
+    },
+    "EXTRA_TOOLS": "Herramientas extras",
+    "EXTRA_TOOLS_DESCRIPTION": "Tengo conocimiento con diversas herramientas y tecnologías las cuales me ayudan a ampliar el espectro de funcionalidades en un proyecto.",
+    "TOOLS": {
+      "GIT": "Git",
+      "NODEJS": "NodeJS",
+      "GOOGLE_CLOUD": "Google Cloud",
+      "MICROSOFT_AZURE": "Microsoft Azure",
+      "AWS": "AWS",
+      "CRASHLYTICS": "Crashlytics",
+      "MARKETING_CLOUD": "Marketing Cloud",
+      "AMPLITUDE_SDK": "Amplitude SDK",
+      "META_SDK": "Meta SDK",
+      "LEANPLUM": "Leanplum"
+    }
+  },
+  "MY_PROJECTS": {
+    "TITLE": "Participación en Proyectos",
+    "DESCRIPTION": "Estos son algunos de los proyectos en los que he participado, tanto en el desarrollo de aplicaciones móviles como en el desarrollo de aplicaciones web y algunos otros que describo en mi CV.",
+    "OXXO": {
+      "TITLE":"mi OXXO App",
+      "DESCRIPTION": "Aplicación desarrollada en Android, realiza pagos rápidos y recargas, muestra promociones y cupones de productos, además de servicio de delivery."
+    },
+    "COMENZANDO_JUNTOS": {
+      "TITLE": "Comenzando Juntos",
+      "DESCRIPTION": "Aplicación web desarrollada en AngujarJS, API en .NET alojada en Azure, proyecto de FEMSA como estrategia para impulsar el desarrollo de niños."
+    },
+    "WIBE": {
+      "TITLE": "Wibe App - BBVA",
+      "DESCRIPTION": "Aplicación desarrollada en Android, realiza contrataciones y cotizaciones de seguros de autos y motocicletas, entre otras funcionalidades de utilidad."
+    },
+    "CEMEX_GO_DRIVER": {
+      "TITLE": "CEMEX Go Driver",
+      "DESCRIPTION": "Aplicación desarrollada en Android, administración electrónica de entregas de productos de la marca para uso de choferes y conductores para gestionar sus entregas."
+    },
+    "SQUIRK": {
+      "TITLE": "Squirk",
+      "DESCRIPTION": "Landing page desarrollada en Angular y Firebase, con la finalidad de transformar a los visitantes en clientes del producto lubricante Squirk con prospectos a convertirse en mayoristas potenciales."
+    },
+    "ABOLENGOS": {
+      "TITLE": "CBA",
+      "DESCRIPTION": "Aplicación desarrollada Ionic + Angular y Supabase, con la finalidad de llevar un registro y modalidad de reservación de eventos en diversas Quintas del cliente, 100% desarrollada por mi."
+    }
+  },
+  "ACHIEVEMENTS": {
+    "ACHIEVEMENTS": "Mis logros, Reconocimientos",
+    "COURSES": "Mis Cursos",
+    "RESUME": "Curriculum Vitae"
+  },
+  "FOOTER": {
+    "ME": {
+    "MY_NAME": "André Ibarra Pérez",
+    "ABOUT_ME": "Desarrollador de software con 3 años de experiencia profesional con aplicaciones móviles nativas en Android Studio (Kotlin y Java), además de contar con más de un año de experiencia en desarrollo FrontEnd Web (Angular)."
+    },
+    "CONTACT": {
+      "TITLE": "Contacto",
+      "LOCATION": "Tamaulipas, México",
+      "EMAIL": "ibarraandre98@gmail.com",
+      "PHONE": "+ 52 831 113 15 62",
+      "RESUME": "Curriculum Vitae"
+    },
+    "WORK_TOGETHER": {
+      "TITLE": "Trabajemos juntos",
+      "DESCRIPTION": "Si estás interesado en trabajar conmigo, por favor contáctame."
+    },
+    "BY": {
+      "TITLE": "Desarrollado por André Ibarra Pérez con Angular 16 y Bootstrap 5 en 2023."
+    }
+  }
+}
