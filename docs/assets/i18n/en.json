@@ -84,6 +84,10 @@
   "MY_PROJECTS": {
     "TITLE": "Projects I have participated",
     "DESCRIPTION": "These are some of the projects in which I have participated, such as in mobile application development and web development and some others that I describe in my resume.",
+    "ROTARY": {
+      "TITLE": "Rotary Club Mante",
+      "DESCRIPTION": "Webpage developed in Angular, with the goal to announce Rotary Club from Mante, Tamaulipas, México as well as their events and activities."
+    },
     "OXXO": {
       "TITLE":"mi OXXO App",
       "DESCRIPTION": "App developed in Android, which make fast payments, air time recharges, shows products promotions and coupons also delivery service."
@@ -107,6 +111,10 @@
     "ABOLENGOS": {
       "TITLE": "CBA",
       "DESCRIPTION": "App developed in Ionic + Angular and Supabase, with the goal to have a record and make events reservations of many client's villa rental, developed from scratch by me."
+    },
+    "OLD_PORTFOLIO" :{
+      "TITLE": "University Portfolio",
+      "DESCRIPTION": "Webpage developed in HTML, CSS and JS as my first university portfolio, with the goal to show my projects and achievements during my stay at university."
     }
   },
   "ACHIEVEMENTS": {
