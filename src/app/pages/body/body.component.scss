@@ -150,12 +150,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 260px;
+    height: 280px;
     width: 100%;
     min-width: 200px;
     border-radius: 20px;
     img {
-      height: 45%;
+      height: 40%;
     }
 
     &__description {
@@ -222,7 +222,7 @@
 
 .project-rotary {
   .rotary-img-resize {
-    height: 40%;
+    height: 35%;
   }
   background-color: #00246e;
 }
