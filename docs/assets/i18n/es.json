@@ -84,6 +84,10 @@
   "MY_PROJECTS": {
     "TITLE": "Participación en Proyectos",
     "DESCRIPTION": "Estos son algunos de los proyectos en los que he participado, tanto en el desarrollo de aplicaciones móviles como en el desarrollo de aplicaciones web y algunos otros que describo en mi CV.",
+    "ROTARY": {
+      "TITLE": "Club Rotario Mante",
+      "DESCRIPTION": "Webpage desarrollada en Angular, con la finalidad de dar a conocer el Club Rotario de El Mante, Tamaulipas, México, así como sus actividades y eventos."
+    },
     "OXXO": {
       "TITLE":"mi OXXO App",
       "DESCRIPTION": "Aplicación desarrollada en Android, realiza pagos rápidos y recargas, muestra promociones y cupones de productos, además de servicio de delivery."
@@ -107,6 +111,10 @@
     "ABOLENGOS": {
       "TITLE": "CBA",
       "DESCRIPTION": "Aplicación desarrollada Ionic + Angular y Supabase, con la finalidad de llevar un registro y modalidad de reservación de eventos en diversas Quintas del cliente, 100% desarrollada por mi."
+    },
+    "OLD_PORTFOLIO" :{
+      "TITLE": "Portafolio Universitario",
+      "DESCRIPTION": "Webpage desarrollada con HTML, CSS y JS como mi primer portafolio universitario, con la finalidad de mostrar mis proyectos y logros durante mi estancia en la universidad."
     }
   },
   "ACHIEVEMENTS": {
