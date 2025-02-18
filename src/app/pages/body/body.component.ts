@@ -31,7 +31,6 @@ export class BodyComponent implements OnInit {
   public faCode = faCode;
 
   public resumePath = 'assets/resume/resumeEnglish.pdf';
-
   public aboutMeArray = [
     {
       img: '../../../assets/personal_skills/autodidacta.png',
