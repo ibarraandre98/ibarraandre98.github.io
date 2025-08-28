@@ -25,4 +25,8 @@ export class FooterComponent {
   public faGithub = faGithub;
   public faLinkedin = faLinkedin;
   public faYoutube = faYoutube;
+
+  public getCurrentYear() {
+    return new Date().getFullYear();
+  }
 }

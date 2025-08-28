@@ -21,7 +21,7 @@
     "ABOUT_ME": "ABOUT ME",
     "ABOUT_ME_DESCRIPTION": "I'm a diligent person with knowledge in differents development areas such as Frontend y Backend.",
     "MY_WORK": "MY WORK",
-    "MY_WORK_DESCRIPTION": "I have worked in many diffente companies and by my own, getting knowledge in web development with Angular and mobile with Ionic and native Android.",
+    "MY_WORK_DESCRIPTION": "I have worked in many different companies and by my own, getting knowledge in web development with Angular and mobile with Ionic and native Android.",
     "CONTACT_ME": "CONTACT ME"
   },
   "ABOUT_ME":{
@@ -84,6 +84,10 @@
   "MY_PROJECTS": {
     "TITLE": "Projects I have participated",
     "DESCRIPTION": "These are some of the projects in which I have participated, such as in mobile application development and web development and some others that I describe in my resume.",
+    "INTERACTIVE": {
+      "TITLE": "Interactive",
+      "DESCRIPTION": "School platform developed in Angular, serving as a learning platform for students of the Interactive Language School."
+    },
     "ROTARY": {
       "TITLE": "Rotary Club Mante",
       "DESCRIPTION": "Webpage developed in Angular, with the goal to announce Rotary Club from Mante, Tamaulipas, México as well as their events and activities."
@@ -125,11 +129,11 @@
   "FOOTER": {
     "ME": {
     "MY_NAME": "André Ibarra Pérez",
-    "ABOUT_ME": "Software Developer with 3 years of professional experience in native mobile applications using Android Studio (Kotlin and Java), as well as over a year of experience in FrontEnd Web development (Angular)."
+    "ABOUT_ME": "Software Developer with +5 years of professional experience in native mobile applications using Android Studio (Kotlin and Java), as well as over a year of experience in FrontEnd Web development (Angular)."
     },
     "CONTACT": {
       "TITLE": "Contact",
-      "LOCATION": "Tamaulipas, México",
+      "LOCATION": "México",
       "EMAIL": "ibarraandre98@gmail.com",
       "PHONE": "+ 52 831 113 15 62",
       "RESUME": "Resume"
@@ -139,7 +143,7 @@
       "DESCRIPTION": "If you are interested in working with me, please contact me."
     },
     "BY": {
-      "TITLE": "Developed by André Ibarra Pérez with Angular 16 and Bootstrap 5 in 2023."
+      "TITLE": "André Ibarra Pérez"
     }
   }
 }
