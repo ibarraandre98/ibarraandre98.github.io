@@ -84,6 +84,10 @@
   "MY_PROJECTS": {
     "TITLE": "Participación en Proyectos",
     "DESCRIPTION": "Estos son algunos de los proyectos en los que he participado, tanto en el desarrollo de aplicaciones móviles como en el desarrollo de aplicaciones web y algunos otros que describo en mi CV.",
+    "INTERACTIVE": {
+      "TITLE": "Interactive",
+      "DESCRIPTION": "Plataforma escolar desarrollada en Angular, fungiendo como plataforma de aprendizaje para los alumnos de la escuela de idiomas Interactive."
+    },
     "ROTARY": {
       "TITLE": "Club Rotario Mante",
       "DESCRIPTION": "Webpage desarrollada en Angular, con la finalidad de dar a conocer el Club Rotario de El Mante, Tamaulipas, México, así como sus actividades y eventos."
@@ -125,11 +129,11 @@
   "FOOTER": {
     "ME": {
     "MY_NAME": "André Ibarra Pérez",
-    "ABOUT_ME": "Desarrollador de software con 3 años de experiencia profesional con aplicaciones móviles nativas en Android Studio (Kotlin y Java), además de contar con más de un año de experiencia en desarrollo FrontEnd Web (Angular)."
+    "ABOUT_ME": "Desarrollador de software con +5 años de experiencia profesional con aplicaciones móviles nativas en Android Studio (Kotlin y Java), además de contar con más de un año de experiencia en desarrollo FrontEnd Web (Angular)."
     },
     "CONTACT": {
       "TITLE": "Contacto",
-      "LOCATION": "Tamaulipas, México",
+      "LOCATION": "México",
       "EMAIL": "ibarraandre98@gmail.com",
       "PHONE": "+ 52 831 113 15 62",
       "RESUME": "Curriculum Vitae"
@@ -139,7 +143,7 @@
       "DESCRIPTION": "Si estás interesado en trabajar conmigo, por favor contáctame."
     },
     "BY": {
-      "TITLE": "Desarrollado por André Ibarra Pérez con Angular 16 y Bootstrap 5 en 2023."
+      "TITLE": "André Ibarra Pérez"
     }
   }
 }

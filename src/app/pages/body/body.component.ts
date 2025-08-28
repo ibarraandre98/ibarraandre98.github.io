@@ -266,6 +266,14 @@ export class BodyComponent implements OnInit {
 
   public coursesArray = [
     {
+      src: 'assets/courses/EFSETCertificate.jpg',
+      alt: '',
+    },
+    {
+      src: 'assets/courses/githubuniverse.jpg',
+      alt: '',
+    },
+    {
       src: 'assets/courses/dataScience.png',
       alt: '',
     },
