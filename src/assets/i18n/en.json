@@ -24,7 +24,7 @@
     "MY_WORK_DESCRIPTION": "I have worked in many different companies and by my own, getting knowledge in web development with Angular and mobile with Ionic and native Android.",
     "CONTACT_ME": "CONTACT ME"
   },
-  "ABOUT_ME":{
+  "ABOUT_ME": {
     "TITLE": "About Me",
     "PERSONAL_SKILLS": "Personal Skills",
     "PERSONAL_SKILLS_DESCRIPTION": "I'm a person with initiative, motivation, responsability and commitment to get solution to any issue.",
@@ -84,6 +84,10 @@
   "MY_PROJECTS": {
     "TITLE": "Projects I have participated",
     "DESCRIPTION": "These are some of the projects in which I have participated, such as in mobile application development and web development and some others that I describe in my resume.",
+    "CLAROVIDEO": {
+      "TITLE": "Claro video",
+      "DESCRIPTION": "Contributed to the development and optimization of Claro video, a comprehensive, large-scale streaming platform that consolidates diverse entertainment ecosystems into a single mobile experience."
+    },
     "INTERACTIVE": {
       "TITLE": "Interactive",
       "DESCRIPTION": "School platform developed in Angular, serving as a learning platform for students of the Interactive Language School."
@@ -93,7 +97,7 @@
       "DESCRIPTION": "Webpage developed in Angular, with the goal to announce Rotary Club from Mante, Tamaulipas, México as well as their events and activities."
     },
     "OXXO": {
-      "TITLE":"mi OXXO App",
+      "TITLE": "mi OXXO App",
       "DESCRIPTION": "App developed in Android, which make fast payments, air time recharges, shows products promotions and coupons also delivery service."
     },
     "COMENZANDO_JUNTOS": {
@@ -116,7 +120,7 @@
       "TITLE": "CBA",
       "DESCRIPTION": "App developed in Ionic + Angular and Supabase, with the goal to have a record and make events reservations of many client's villa rental, developed from scratch by me."
     },
-    "OLD_PORTFOLIO" :{
+    "OLD_PORTFOLIO": {
       "TITLE": "University Portfolio",
       "DESCRIPTION": "Webpage developed in HTML, CSS and JS as my first university portfolio, with the goal to show my projects and achievements at university."
     }
@@ -128,8 +132,8 @@
   },
   "FOOTER": {
     "ME": {
-    "MY_NAME": "André Ibarra Pérez",
-    "ABOUT_ME": "Software Developer with +5 years of professional experience in native mobile applications using Android Studio (Kotlin and Java), as well as over a year of experience in FrontEnd Web development (Angular)."
+      "MY_NAME": "André Ibarra Pérez",
+      "ABOUT_ME": "Software Developer with +5 years of professional experience in native mobile applications using Android Studio (Kotlin and Java), as well as over a year of experience in FrontEnd Web development (Angular)."
     },
     "CONTACT": {
       "TITLE": "Contact",
