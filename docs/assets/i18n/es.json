@@ -24,7 +24,7 @@
     "MY_WORK_DESCRIPTION": "He laborado en distintas empresas y por cuenta propia, adquiriendo experiencia y conocimiento de desarrollo web con Angular y móvil con Ionic y Android nativo.",
     "CONTACT_ME": "CONTACTAME"
   },
-  "ABOUT_ME":{
+  "ABOUT_ME": {
     "TITLE": "Acerca de mi",
     "PERSONAL_SKILLS": "Habilidades personales",
     "PERSONAL_SKILLS_DESCRIPTION": "Soy una persona con iniciativa, motivación, responsabilidad y compromiso para poder solucionar cualquier problema.",
@@ -84,6 +84,10 @@
   "MY_PROJECTS": {
     "TITLE": "Participación en Proyectos",
     "DESCRIPTION": "Estos son algunos de los proyectos en los que he participado, tanto en el desarrollo de aplicaciones móviles como en el desarrollo de aplicaciones web y algunos otros que describo en mi CV.",
+    "CLAROVIDEO": {
+      "TITLE": "Claro video",
+      "DESCRIPTION": "Contribución al desarrollo y optimización de Claro video, una plataforma de streaming a gran escala que consolida diversos ecosistemas de entretenimiento en una única experiencia móvil."
+    },
     "INTERACTIVE": {
       "TITLE": "Interactive",
       "DESCRIPTION": "Plataforma escolar desarrollada en Angular, fungiendo como plataforma de aprendizaje para los alumnos de la escuela de idiomas Interactive."
@@ -93,7 +97,7 @@
       "DESCRIPTION": "Webpage desarrollada en Angular, con la finalidad de dar a conocer el Club Rotario de El Mante, Tamaulipas, México, así como sus actividades y eventos."
     },
     "OXXO": {
-      "TITLE":"mi OXXO App",
+      "TITLE": "mi OXXO App",
       "DESCRIPTION": "Aplicación desarrollada en Android, realiza pagos rápidos y recargas, muestra promociones y cupones de productos, además de servicio de delivery."
     },
     "COMENZANDO_JUNTOS": {
@@ -116,7 +120,7 @@
       "TITLE": "CBA",
       "DESCRIPTION": "Aplicación desarrollada Ionic + Angular y Supabase, con la finalidad de llevar un registro y modalidad de reservación de eventos en diversas Quintas del cliente, 100% desarrollada por mi."
     },
-    "OLD_PORTFOLIO" :{
+    "OLD_PORTFOLIO": {
       "TITLE": "Primer Portafolio",
       "DESCRIPTION": "Webpage desarrollada con HTML, CSS y JS como mi primer portafolio universitario, con la finalidad de mostrar mis proyectos y logros en la universidad."
     }
@@ -128,8 +132,8 @@
   },
   "FOOTER": {
     "ME": {
-    "MY_NAME": "André Ibarra Pérez",
-    "ABOUT_ME": "Desarrollador de software con +5 años de experiencia profesional con aplicaciones móviles nativas en Android Studio (Kotlin y Java), además de contar con más de un año de experiencia en desarrollo FrontEnd Web (Angular)."
+      "MY_NAME": "André Ibarra Pérez",
+      "ABOUT_ME": "Desarrollador de software con +5 años de experiencia profesional con aplicaciones móviles nativas en Android Studio (Kotlin y Java), además de contar con más de un año de experiencia en desarrollo FrontEnd Web (Angular)."
     },
     "CONTACT": {
       "TITLE": "Contacto",
